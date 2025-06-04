@@ -28,7 +28,7 @@
       "İnegöl": [
         {
           "name": "PAZARTESİ SEMT PAZARI",
-          "address": "MAHMUDİYE MAH TETİK SOKAK ÜZERİ İNEGÖL/BURSA"
+          "address": "MAHMUDİYE MAH TETİK SOKAK ÜZERİ İNEGÖL / BURSA"
         }
       ],
       "İznik": [
@@ -40,7 +40,7 @@
       "Karacabey": [
         {
           "name": "ÖMER MATLI KAPALI PAZAR YERİ (BALIK HALİ)",
-          "address": "SIRABADEMLER MAH. ORTA OKUL CAD/KARACABEY/BURSA"
+          "address": "SIRABADEMLER MAH. ORTA OKUL CAD / KARACABEY / BURSA"
         }
       ],
       "Keles": [
@@ -57,20 +57,24 @@
       ],
       "Mudanya": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "Mudanya Pazartesi Pazarı",
+          "address": "Halitpaşa Mahallesi Değirmendere Caddesi Üzeri Mudanya / BURSA"
         }
       ],
       "Mustafakemalpaşa": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "PAZARTESİ PAZARI",
+          "address": "HAMİDİYE MAHALLESİ RÜŞTİYE CADDESİ MUSTAFAKEMALPAŞA / BURSA"
         }
       ],
       "Nilüfer": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "MİNARELİÇAVUŞ SEMT PAZARI",
+          "address": "Minareliçavuş Mahallesi Merkez Sokak Açık Pazar Alanı Nilüfer / BURSA"
+        },
+        {
+          "name": "ÜÇEVLER GİYİM PAZARI",
+          "address": "ÜÇEVLER MAHALLESWİ DUMLUPINAR CADDESİ KEVSER SOKAK KAPALI PAZAR ALANI NİLÜFER / BURSA"
         }
       ],
       "Orhaneli": [
@@ -81,8 +85,12 @@
       ],
       "Orhangazi": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "ORHANGAZİ BELEDİYESİ KAPALI PAZAR YERİ SEBZE MEYVE PAZARI",
+          "address": "HÜRRİYET MAHALLESİ TOZKOPARAN CADDESİ NO: 72 ORHANGAZİ / BURSA"
+        },
+        {
+          "name": "ORHANGAZİ BELEDİYESİ KAPALI PAZAR YERİ GİYİM PAZARI",
+          "address": "HÜRRİYET MAHALLESİ TOZKOPARAN CADDESİ NO: 72 ALT KAT ORHANGAZİ / BURSA"
         }
       ],
       "Osmangazi": [
@@ -116,7 +124,7 @@
       "Gemlik": [
         {
           "name": "SALI PAZARI",
-          "address": "Dr.ZİYA KAYA MAHALLESİ 862 ADA 3 PARSEL GEMLİK /BURSA"
+          "address": "Dr.ZİYA KAYA MAHALLESİ 862 ADA 3 PARSEL GEMLİK / BURSA"
         }
       ],
       "Gürsu": [
@@ -134,7 +142,7 @@
       "İnegöl": [
         {
           "name": "SALI PAZARI",
-          "address": "ESENTEPE MAH PAZARYANI SOK ÜZERİ İNEGÖL /BURSA"
+          "address": "ESENTEPE MAH PAZARYANI SOK ÜZERİ İNEGÖL / BURSA"
         }
       ],
       "İznik": [
@@ -167,8 +175,8 @@
       ],
       "Mudanya": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "(Emir Ali USTA) Güzelyalı Kapalı Salı Pazarı",
+          "address": "Güzelyalı Eğitim Mahallesi Barış Manço Caddesi No:3 Mudanya / BURSA"
         }
       ],
       "Mustafakemalpaşa": [
@@ -179,8 +187,24 @@
       ],
       "Nilüfer": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "ESENTEPE SEMT PAZARI",
+          "address": "ESENTEPE MAH. İSKAN SK. MUHTARLIK YANI AÇIK PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "DEMİRCİ SEMT PAZARI",
+          "address": "DEMİRCİ MAH. KARAMEL SK. AÇIK PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "23 NİSAN SEMT PAZARI",
+          "address": "23 NİSAN MAHALLESİ ARASLI SOKAK ÜZERİ NİLÜFER / BURSA"
+        },
+        {
+          "name": "BATIKENT (19 MAYIS) GİYİM PAZARI",
+          "address": "19 MAYIS MAHALLESİ SİDE CADDESİ KAPALI PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "GÖRÜKLE ÜRETİCİ PAZARI",
+          "address": "GÖRÜKLE MAHALLESİ PORTAKAL SOKAK KAPALI PAZAR ALANI NİLÜFER / BURSA"
         }
       ],
       "Orhaneli": [
@@ -191,8 +215,8 @@
       ],
       "Orhangazi": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "BEYCE PAZARI",
+          "address": "iSMETPAŞA MH. ZAFER CAD. ORHANELİ / BURSA"
         }
       ],
       "Osmangazi": [
@@ -203,8 +227,8 @@
       ],
       "Yenişehir": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "YENİŞEHİR SALI PAZARI",
+          "address": "ÇAYIR MAHALLESİ GARAJ CADDESİ NO:21-31/A YENİŞEHİR / BURSA"
         }
       ],
       "Yıldırım": [
@@ -244,11 +268,11 @@
       "İnegöl": [
         {
           "name": "KURŞUNLU PAZARI",
-          "address": "KURŞUNLU MAH ATATÜRK CAD İNEGÖL/BURSA"
+          "address": "KURŞUNLU MAH ATATÜRK CAD İNEGÖL / BURSA"
         },
         {
           "name": "HUZUR PAZARI",
-          "address": "HUZUR MAHALLESİ ATATÜRK CADDESİ İNEGÖL/BURSA"
+          "address": "HUZUR MAHALLESİ ATATÜRK CADDESİ İNEGÖL / BURSA"
         }
       ],
       "İznik": [
@@ -277,8 +301,8 @@
       ],
       "Mudanya": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "Mudanya Çarşamba Pazarı",
+          "address": "Halitpaşa Mahallesi Agah Bursalı Caddesi Üzeri Mudanya / BURSA"
         }
       ],
       "Mustafakemalpaşa": [
@@ -289,8 +313,28 @@
       ],
       "Nilüfer": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "ÇAMLICA SEMT PAZARI",
+          "address": "ÇAMLICA MAHALLESİ KAVAKDERE CADDESİ KAPALI PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "KARAMAN SEMT PAZARI",
+          "address": "KARAMAN MAH. TUNA CADDESİ KAPALI PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "ERTUĞRUL SEMT PAZARI",
+          "address": "ERTUĞRUL MAH. 153'ÜNCÜ SK. AÇIK PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "GAZİ (CUMHURİYET) GİYİM PAZARI",
+          "address": "CUMHURİYET MAHALLESİ MAVİ SOKAK KAPALI PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "ÖZLÜCE SEMT PAZARI",
+          "address": "ÖZLÜCE MAHALLESİ ÖZER SOKAK AÇIK PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "KONAK MÜSTAHSİL (ÜRETİCİ) PAZARI",
+          "address": "KONAK MAHALLESİ SEÇKİN SOKAK KAPALI PAZAR ALANI NİLÜFER / BURSA"
         }
       ],
       "Orhaneli": [
@@ -358,11 +402,11 @@
       "İnegöl": [
         {
           "name": "MERPA SEMT PAZARI",
-          "address": "ORHANİYE MAH BAYKUT SOKAK İNEGÖL /BURSA"
+          "address": "ORHANİYE MAH BAYKUT SOKAK İNEGÖL / BURSA"
         },
         {
           "name": "MERPA KÖYLÜ PAZARI",
-          "address": "ORHANİYE MAH BAYKUT SOKAK"
+          "address": "ORHANİYE MAH BAYKUT SOKAK İNEGÖL / BURSA"
         }
       ],
       "İznik": [
@@ -391,20 +435,48 @@
       ],
       "Mudanya": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "Güzelyalı Perşembe Pazarı",
+          "address": "Güzelyalı Yalı Mahallesi Dörtçelik Caddesi Üzeri Mudanya / BURSA"
         }
       ],
       "Mustafakemalpaşa": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "PERŞEMBE PAZARI",
+          "address": "HAMZABEY MAHALLESİ MEKTEP SOKAK MUSTAFAKEMALPAŞA / BURSA"
+        },
+        {
+          "name": "ÜRETİCİ PAZARI",
+          "address": "ŞEVKETİYE MAHALLESİ HAKAN SEPETÇİOĞLU SOKAK MUSTAFAKEMALPAŞA / BURSA"
+        },
+        {
+          "name": "BALIK PAZARI",
+          "address": "ŞEYHMÜFTÜ MAHALLESİ PABUÇÇULAR ARKA SOKAK MUSTAFAKEMALPAŞA / BURSA"
         }
       ],
       "Nilüfer": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "FETHİYE SEMT PAZARI",
+          "address": "FETHİYE MAHALLESİ FATİH SOKAK KAPALI PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "KONAK GİYİM PAZARI",
+          "address": "KONAK MAHALLESİ SEÇKİN SOKAK KAPALI PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "AHMETYESEVİ SEMT PAZARI",
+          "address": "AHMETYESEVİ MAHALLESİ HÜRRİYET CADDESİ ATABEY SOKAK AÇIK PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "KÜLTÜR SEMT PAZARI",
+          "address": "KÜLTÜR MAHALLESİ BOLU SOKAK KAPALI PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "BARIŞ SEMT PAZARI",
+          "address": "BARIŞ MAHALLSİ ASLANBEY SOKAK AÇIK PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "BATIKENT (19 MAYIS) MÜHTAHSİ (ÜRETİCİ) PAZARI",
+          "address": "BARIŞ MAHALLESİ ASLANBEY SOKAK AÇIK PAZAR ALANI NİLÜFER / BURSA"
         }
       ],
       "Orhaneli": [
@@ -415,8 +487,8 @@
       ],
       "Orhangazi": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "ORHANGAZİ BELEDİYESİ SOYDAŞKENT SEMT PAZARI",
+          "address": "ARAPZADE MAHALLESİ ŞEHİT VEDAT AKDAĞ CADDESİ NO:1/2 ORHANGAZİ / BURSA"
         }
       ],
       "Osmangazi": [
@@ -443,8 +515,8 @@
     "İlçe": {
       "Büyükorhan": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "Büyükorhan Halk Pazarı",
+          "address": "ŞEHİT ZEKİ UĞUR KAPALI PAZAR YERİ ORHAN MAH/BELEDİYE MEYDANI / BÜYÜKORHAN / BURSA"
         }
       ],
       "Gemlik": [
@@ -468,11 +540,11 @@
       "İnegöl": [
         {
           "name": "CUMPA TUHAFİYE",
-          "address": "ORHANİYE MAH BAYKUT SOKAK İNEGÖL/BURSA"
+          "address": "ORHANİYE MAH BAYKUT SOKAK İNEGÖL / BURSA"
         },
         {
           "name": "YENİCEKÖY CUMA",
-          "address": "YENİCEKÖY MAH MEHMET GÖZTEPE CAD İNEGÖL/BURSA"
+          "address": "YENİCEKÖY MAH MEHMET GÖZTEPE CAD İNEGÖL / BURSA"
         },
         {
           "name": "CERRAH PAZARI",
@@ -498,7 +570,7 @@
       "Keles": [
         {
           "name": "Keles Cuma Pazarı",
-          "address": "Cuma Mh.Beylik Sok.No:3 KELES-BURSA"
+          "address": "Cuma Mh.Beylik Sok.No:3 KELES / BURSA"
         }
       ],
       "Kestel": [
@@ -509,8 +581,8 @@
       ],
       "Mudanya": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "Mudanya Kapalı Cuma Pazarı",
+          "address": "Ömerbey Mahallesi İstasyon Caddesi No:39/4 Mudanya / BURSA"
         }
       ],
       "Mustafakemalpaşa": [
@@ -521,8 +593,24 @@
       ],
       "Nilüfer": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "ÜÇEVLER SEMT PAZARI",
+          "address": "ÜÇEVLER MAH.DUMLUPINAR CAD. KEVSER SOK KAPALI. PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "GÖRÜKLE GİYİM PAZARI",
+          "address": "GÖRÜKLE MAHALLESİ PORTAKAL SOKAK KAPALI PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "ÇALI SEMT PAZARI",
+          "address": "ÇALI MAHALLESİ DEĞİRMEN CADDESİ AÇIK PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "AKÇALAR SEMT PAZARI",
+          "address": "AKÇALAR MAHALLESİ BALIKÇI YOLU CADDE PAZAR SOKAK AÇIK PAZAR ALNI NİLÜFER / BURSA"
+        },
+        {
+          "name": "GAZİ (CUMHURİYET) SEMT PAZARI",
+          "address": "CUMHURİYET MAHALLESİ MAVİ SOKAK KAPALI PAZAR ALANI NİLÜFER / BURSA"
         }
       ],
       "Orhaneli": [
@@ -568,7 +656,7 @@
       "Gemlik": [
         {
           "name": "CUMARTESİ PAZARI",
-          "address": "BALIK PAZARI MAHALLESİ GEMLİK/ BURSA"
+          "address": "BALIK PAZARI MAHALLESİ GEMLİK / BURSA"
         }
       ],
       "Gürsu": [
@@ -590,7 +678,7 @@
       "İnegöl": [
         {
           "name": "CUMARTESİ PAZARI",
-          "address": "BURHANİYE MAH KEMALETTİNSAMİPAŞA CAD İNEGÖL /BURSA"
+          "address": "BURHANİYE MAH KEMALETTİNSAMİPAŞA CAD İNEGÖL / BURSA"
         }
       ],
       "İznik": [
@@ -635,8 +723,32 @@
       ],
       "Nilüfer": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "GÖRÜKLE SEMT PAZARI",
+          "address": "GÖRÜKLE MAHALLESİ PORTAKAL SOKAK KAPALI PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "ALTINŞEHİR SEMT PAZARI",
+          "address": "ALTINŞEHİR MAHALLESİ 233 SOKAK MUHTARLIK YANI KAPALI PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "HASANAĞA KIZILCIKLI SEMT PAZARI",
+          "address": "HASANAĞA KIZILCIKLI MAHALLESİ KEMERLİ SOKAK AÇIK PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "İHSANİYE SİTELER SEMT PAZARI",
+          "address": "İHSANİYE MAHALLESİ AHMETVEFİKPAŞA CADDESİ KAPALI PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "İHSANİYE SİTELER GİYİM PAZARI",
+          "address": "İHSANİYE MAHALLESİ AHMETVEFİKPAŞA CADDESİ KAPALI PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "ÇAMLICA MÜSTAHSİL (ÜRETİCİ) PAZARI",
+          "address": "ÇAMLICA MAHALLESİ KAVAKDERE CADDESİ ARDALI SOKAK KAPALI PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "BEŞEVLER SEMT PAZARI",
+          "address": "BEŞEVLER MAHALLESİ BEYDAĞI SOKAK KAPALI PAZAR ALANI NİLÜFER / BURSA"
         }
       ],
       "Orhaneli": [
@@ -700,15 +812,15 @@
       "İnegöl": [
         {
           "name": "MESUDİYE PAZARI",
-          "address": "MESUDİYE MAH KAYA SOKAK"
+          "address": "MESUDİYE MAH KAYA SOKAK İNEGÖL / BURSA"
         },
         {
           "name": "AKHİSAR PAZARI",
-          "address": "AKHİSAR MAH ATASAY SOKAK"
+          "address": "AKHİSAR MAH ATASAY SOKAK İNEGÖL / BURSA"
         },
         {
           "name": "YENİCEKÖY PAZAR PAZARI",
-          "address": "YENİCEKÖY MAH DEMOKRASİ CAD"
+          "address": "YENİCEKÖY MAH DEMOKRASİ CAD İNEGÖL / BURSA"
         }
       ],
       "İznik": [
@@ -741,20 +853,40 @@
       ],
       "Mudanya": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "Mudanya Kapalı Pazar Giyim Pazarı",
+          "address": "Ömerbey Mahallesi İstasyon Caddesi No:39/4 Mudanya / BURSA"
+        },
+        {
+          "name": "Güzelyalı Siteler Sebze Meyve Pazarı",
+          "address": "Güzelyalı Siteler Mahallesi Pusula Caddesi Üzeri Mudanya / BURSA"
         }
       ],
       "Mustafakemalpaşa": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "PAZAR PAZARI",
+          "address": "LALAŞAHİN MAHALLESİ KAYMAKAM HAYDARBEY CADDESİ MUSTAFAKEMALPAŞA / BURSA"
         }
       ],
       "Nilüfer": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "KONAK SEMT PAZARI",
+          "address": "KONAK MAHALLESİ SEÇKİN SOKAK KAPALI PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "ATAEVLER SEMT PAZARI",
+          "address": "ATAEVLER MAHALLESİ YILMAZ AKKILIÇ CADDESİ KAPALI PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "BALKAN SEMT PAZARI",
+          "address": "BALKAN MAHALLESİ MEVLANA SOKAK AÇIK PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "BATIKENT (19 MAYIS) SEMT PAZARI",
+          "address": "BATIKENT MAHALLESİ SİDE CADDESİ KAPALI PAZAR ALANI NİLÜFER / BURSA"
+        },
+        {
+          "name": "KARAMAN MÜSTAHSİL (ÜRETİCİ) PAZARI",
+          "address": "KARAMAN MAHALLESİ TUNA CADDESİ FULYA SOKAK KAPALI PAZAR ALANI NİLÜFER / BURSA"
         }
       ],
       "Orhaneli": [
