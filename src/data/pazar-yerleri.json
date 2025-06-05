@@ -16,7 +16,7 @@
       "Gürsu": [
         {
           "name": "Pazartesi Açık Pazarı",
-          "address": "Zafer Mahallesi Bağlar Caddesi Gürsu-Bursa"
+          "address": "Zafer Mahallesi Bağlar Caddesi Gürsu / Bursa"
         }
       ],
       "Harmancık": [
@@ -136,7 +136,7 @@
         },
         {
           "name": "Karapınar Semt Pazarı",
-          "address": "Karapınar Mahalle 17/1 Sokak Yıldırım / Bursa"
+          "address": "Karapınar Mahalle 17 / 1 Sokak Yıldırım / Bursa"
         },
         {
           "name": "Kazımkarabekir Semt Pazarı",
@@ -194,11 +194,11 @@
       "Karacabey": [
         {
           "name": "Ömer Matlı Kapalı Pazar Yeri (Balık Hali)",
-          "address": "Sırabademler Mah. Orta Okul Cad/Karacabey/Bursa"
+          "address": "Sırabademler Mah. Orta Okul Cad / Karacabey / Bursa"
         },
         {
           "name": "Üretici Pazarı",
-          "address": "Sırabademler Mah. 84 Sok/Karacabey/Bursa"
+          "address": "Sırabademler Mah. 84 Sok / Karacabey / Bursa"
         }
       ],
       "Keles": [
@@ -288,7 +288,7 @@
       "Yenişehir": [
         {
           "name": "Yenişehir Salı Pazarı",
-          "address": "Çayır Mahallesi Garaj Caddesi No:21-31/A Yenişehir / Bursa"
+          "address": "Çayır Mahallesi Garaj Caddesi No:21-31 / A Yenişehir / Bursa"
         }
       ],
       "Yıldırım": [
@@ -336,7 +336,7 @@
       "Gürsu": [
         {
           "name": "Çarşamba Pazarı",
-          "address": "İstiklal Mahallesi Hekimler Sokak - Yeşil Sokak - Gürsu-Bursa"
+          "address": "İstiklal Mahallesi Hekimler Sokak - Yeşil Sokak - Gürsu / Bursa"
         }
       ],
       "Harmancık": [
@@ -364,7 +364,7 @@
       "Karacabey": [
         {
           "name": "Ömer Matlı Kapalı Pazar Yeri (Balık Hali)",
-          "address": "Sırabademler Mah. Orta Okul Cad/Karacabey/Bursa"
+          "address": "Sırabademler Mah. Orta Okul Cad / Karacabey / Bursa"
         }
       ],
       "Keles": [
@@ -500,13 +500,13 @@
         },
         {
           "name": "Kurşunlu Pazarı",
-          "address": "Kurşunlu Mah Mudanya Yolu Cad Tahtalı Çarşı Gemlik /Bursa"
+          "address": "Kurşunlu Mah Mudanya Yolu Cad Tahtalı Çarşı Gemlik  / Bursa"
         }
       ],
       "Gürsu": [
         {
           "name": "Yenidoğan Perşembe Kapalı Pazar",
-          "address": "Yenidoğan Mahallesi İnen Sokak No:14-16 Gürsu-Bursa"
+          "address": "Yenidoğan Mahallesi İnen Sokak No:14-16 Gürsu / Bursa"
         }
       ],
       "Harmancık": [
@@ -534,7 +534,7 @@
       "Karacabey": [
         {
           "name": "Ömer Matlı Kapalı Pazar Yeri (Balık Hali)",
-          "address": "Sırabademler Mah. Orta Okul Cad/Karacabey/Bursa"
+          "address": "Sırabademler Mah. Orta Okul Cad / Karacabey / Bursa"
         }
       ],
       "Keles": [
@@ -604,7 +604,7 @@
       "Orhangazi": [
         {
           "name": "Orhangazi Belediyesi Soydaşkent Semt Pazarı",
-          "address": "Arapzade Mahallesi Şehit Vedat Akdağ Caddesi No:1/2 Orhangazi / Bursa"
+          "address": "Arapzade Mahallesi Şehit Vedat Akdağ Caddesi No:1 / 2 Orhangazi / Bursa"
         }
       ],
       "Osmangazi": [
@@ -672,13 +672,13 @@
       "Büyükorhan": [
         {
           "name": "Büyükorhan Halk Pazarı",
-          "address": "Şehit Zeki Uğur Kapalı Pazar Yeri Orhan Mah/Belediye Meydanı / Büyükorhan / Bursa"
+          "address": "Şehit Zeki Uğur Kapalı Pazar Yeri Orhan Mah / Belediye Meydanı / Büyükorhan / Bursa"
         }
       ],
       "Gemlik": [
         {
           "name": "Kumla Pazarı",
-          "address": "Küçük Kumla Mah Hizmet Cad Gemlik /Bursa"
+          "address": "Küçük Kumla Mah Hizmet Cad Gemlik  / Bursa"
         }
       ],
       "Gürsu": [
@@ -716,11 +716,11 @@
       "Karacabey": [
         {
           "name": "Cuma Pazarı",
-          "address": "Emirsultan Mah. Ortaokul Cad/Karacabey/Bursa"
+          "address": "Emirsultan Mah. Ortaokul Cad / Karacabey / Bursa"
         },
         {
           "name": "Ömer Matlı Kapalı Pazar Yeri (Balık Hali)",
-          "address": "Sırabademler Mah. Orta Okul Cad/Karacabey/Bursa"
+          "address": "Sırabademler Mah. Orta Okul Cad / Karacabey / Bursa"
         }
       ],
       "Keles": [
@@ -738,7 +738,7 @@
       "Mudanya": [
         {
           "name": "Mudanya Kapalı Cuma Pazarı",
-          "address": "Ömerbey Mahallesi İstasyon Caddesi No:39/4 Mudanya / Bursa"
+          "address": "Ömerbey Mahallesi İstasyon Caddesi No:39 / 4 Mudanya / Bursa"
         }
       ],
       "Mustafakemalpaşa": [
@@ -850,11 +850,11 @@
       "Gürsu": [
         {
           "name": "Cumartesi Kapalı Pazarı",
-          "address": "Zafer Mahallesi Hasanpaşa Caddesi No:2 Gürsu-Bursa"
+          "address": "Zafer Mahallesi Hasanpaşa Caddesi No:2 Gürsu / Bursa"
         },
         {
           "name": "Cumartesi Açık Pazar",
-          "address": "Zafer Mahallesi Hasanpaşa Caddesi Gürsu-Bursa"
+          "address": "Zafer Mahallesi Hasanpaşa Caddesi Gürsu / Bursa"
         }
       ],
       "Harmancık": [
@@ -882,7 +882,7 @@
         },
         {
           "name": "Ömer Matlı Kapalı Pazar Yeri (Balık Hali)",
-          "address": "Sırabademler Mah. Orta Okul Cad/Karacabey/Bursa"
+          "address": "Sırabademler Mah. Orta Okul Cad / Karacabey / Bursa"
         }
       ],
       "Keles": [
@@ -998,7 +998,7 @@
         },
         {
           "name": "Kapalı Millet Semt Pazarı",
-          "address": "Millet Mahalle 7.Açelya Sokak No:12/B Yıldırım / Bursa"
+          "address": "Millet Mahalle 7.Açelya Sokak No:12 / B Yıldırım / Bursa"
         }
       ]
     }
@@ -1020,7 +1020,7 @@
       "Gürsu": [
         {
           "name": "Yenidoğan Pazar Pazarı",
-          "address": "Yenidoğan Mahallesi İnen Sokak No:14-16 Gürsu-Bursa"
+          "address": "Yenidoğan Mahallesi İnen Sokak No:14-16 Gürsu / Bursa"
         }
       ],
       "Harmancık": [
@@ -1052,11 +1052,11 @@
       "Karacabey": [
         {
           "name": "Yeniköy Pazarı",
-          "address": "Bayramdere Mah Yeniköy Mevkii/Karacabey/Bursa"
+          "address": "Bayramdere Mah Yeniköy Mevkii / Karacabey / Bursa"
         },
         {
           "name": "Ömer Matlı Kapalı Pazar Yeri (Balık Hali)",
-          "address": "Sırabademler Mah. Orta Okul Cad/Karacabey/Bursa"
+          "address": "Sırabademler Mah. Orta Okul Cad / Karacabey / Bursa"
         }
       ],
       "Keles": [
@@ -1074,7 +1074,7 @@
       "Mudanya": [
         {
           "name": "Mudanya Kapalı Pazar Giyim Pazarı",
-          "address": "Ömerbey Mahallesi İstasyon Caddesi No:39/4 Mudanya / Bursa"
+          "address": "Ömerbey Mahallesi İstasyon Caddesi No:39 / 4 Mudanya / Bursa"
         },
         {
           "name": "Güzelyalı Siteler Sebze Meyve Pazarı",
@@ -1188,7 +1188,7 @@
         },
         {
           "name": "Piremir Semt Pazarı",
-          "address": "Piremir Mahalle Uludağ Cadde No:2/3 Yıldırım / Bursa"
+          "address": "Piremir Mahalle Uludağ Cadde No:2 / 3 Yıldırım / Bursa"
         },
         {
           "name": "Selçukbey Semt Pazarı",

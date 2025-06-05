@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import pazarYerleriData from "../data/pazar-yerleri.json";
 import {
   useReactTable,
@@ -24,10 +24,10 @@ const ilceler = Array.from(ilcelerSet);
 
 // Tabloya uygun veri formatı
 const tableData = ilceler.map((ilce) => {
-  const row: Record<string, string> = { ilce };
+  const row: Record<string, string | string[]> = { ilce };
   gunler.forEach((gun) => {
     const ilceData = data[gun]["İlçe"][ilce];
-    row[gun] = ilceData ? ilceData.map((p: any) => p.name).join(", ") : "-";
+    row[gun] = ilceData ? ilceData.map((p: any) => p.name) : ["-"];
   });
   return row;
 });
@@ -42,9 +42,115 @@ const columns: ColumnDef<any>[] = [
   ...gunler.map((gun) => ({
     accessorKey: gun,
     header: () => gun,
-    cell: (info: any) => info.getValue(),
+    cell: (info: any) => {
+      const value = info.getValue();
+      const ilce = info.row.original.ilce;
+      // useState hook burada kullanılamaz, üst componentte state tutulmalı
+      // Bu yüzden custom bir RowCell componenti ile state yönetelim
+      return (
+        <PazarCell
+          value={value}
+          ilce={ilce}
+          gun={gun}
+          data={data}
+        />
+      );
+    },
   })),
 ];
+
+// Hücrede tooltip ve border yönetimi için ayrı bir component
+function PazarCell({ value, ilce, gun, data }: { value: string[]; ilce: string; gun: string; data: any }) {
+  const [tooltipIdx, setTooltipIdx] = React.useState<number | null>(null);
+  if (!Array.isArray(value)) return value;
+  return (
+    <div style={{ display: "flex", flexDirection: "column", gap: 0, position: "relative" }}>
+      {value.map((name: string, idx: number) => {
+        const pazarObj = data[gun]["İlçe"][ilce]?.[idx];
+        const address = pazarObj?.address || "-";
+        return (
+          <div
+            key={idx}
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: 6,
+              position: "relative",
+              borderBottom: idx !== value.length - 1 ? "1px solid #444" : undefined,
+              padding: "4px 0",
+            }}
+          >
+            <span>{name}</span>
+            {name !== "-" && (
+              <>
+                <span
+                  style={{
+                    cursor: "pointer",
+                    color: "#00ADB5",
+                    fontSize: 18,
+                    display: "inline-flex",
+                    alignItems: "center",
+                  }}
+                  onClick={() => setTooltipIdx(idx)}
+                  title="Adres Göster"
+                >
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"
+                      fill="#00ADB5"
+                    />
+                  </svg>
+                </span>
+                {tooltipIdx === idx && (
+                  <AddressTooltip address={address} onClose={() => setTooltipIdx(null)} />
+                )}
+              </>
+            )}
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+function AddressTooltip({ address, onClose }: { address: string; onClose: () => void }) {
+  return (
+    <div
+      style={{
+        position: "absolute",
+        top: 28,
+        left: 0,
+        zIndex: 1000,
+        background: "#2D2D2D",
+        color: "#E0E0E0",
+        border: "1px solid #444444",
+        borderRadius: 8,
+        padding: "16px 24px 16px 16px",
+        minWidth: 220,
+        boxShadow: "0 2px 16px #0008",
+      }}
+    >
+      <button
+        onClick={onClose}
+        style={{
+          position: "absolute",
+          top: 8,
+          right: 8,
+          background: "none",
+          border: "none",
+          color: "#FF6F61",
+          fontWeight: "bold",
+          fontSize: 18,
+          cursor: "pointer",
+        }}
+        aria-label="Kapat"
+      >
+        ×
+      </button>
+      <div style={{ fontSize: 14, wordBreak: "break-word" }}>{address}</div>
+    </div>
+  );
+}
 
 export default function Home() {
   const [globalFilter, setGlobalFilter] = React.useState("");
@@ -87,6 +193,7 @@ export default function Home() {
           padding-top: 24px;
           position: sticky;
           top: 0;
+          z-index: 1;
         }
       `}</style>
       <div className="fixed-controls">
@@ -159,6 +266,7 @@ export default function Home() {
                       transition: "background 0.2s",
                       position: "sticky",
                       top: 139,
+                      zIndex: 1
                     }}
                     onClick={header.column.getToggleSortingHandler()}
                   >
