@@ -11,6 +11,7 @@ import {
   flexRender,
   ColumnDef,
 } from "@tanstack/react-table";
+import "../assets/styles/styles.scss";
 
 const data: any = pazarYerleriData;
 const gunler = Object.keys(data);
@@ -209,7 +210,8 @@ export default function Home() {
 
   return (
     <div style={{ minHeight: "100vh", background: "#1E1E1E", padding: 24, paddingTop: 0 }}>
-      <style>{`
+      {/* Tüm stil kodları styles.scss dosyasına taşındı */}
+      {/* <style>{`
         body { background: #1E1E1E !important; }
         ::selection { background: #006064; color: #E0E0E0; }
         input::placeholder { color: #888; }
@@ -237,7 +239,7 @@ export default function Home() {
             margin-bottom: 0;
           }
         }
-      `}</style>
+      `}</style> */}
       <div className="fixed-controls">
         <div className="fixed-controls-flex">
           <input
@@ -309,7 +311,7 @@ export default function Home() {
                       userSelect: "none",
                       transition: "background 0.2s",
                       position: "sticky",
-                      top: 95,
+                      top: 95, // Geri alındı: top 0 yerine top 95
                       zIndex: 1
                     }}
                     onClick={header.column.getToggleSortingHandler()}
@@ -349,6 +351,7 @@ export default function Home() {
                 {row.getVisibleCells().map((cell) => (
                   <td
                     key={cell.id}
+                    data-label={cell.column.columnDef.header ? (typeof cell.column.columnDef.header === 'function' ? flexRender(cell.column.columnDef.header, cell.getContext()) : cell.column.columnDef.header) : ''}
                     style={{
                       border: "1px solid #444444",
                       padding: 10,
