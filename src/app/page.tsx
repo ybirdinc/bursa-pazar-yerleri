@@ -210,41 +210,12 @@ export default function Home() {
 
   return (
     <div style={{ minHeight: "100vh", background: "#1E1E1E", padding: 24, paddingTop: 0 }}>
-      {/* Tüm stil kodları styles.scss dosyasına taşındı */}
-      {/* <style>{`
-        body { background: #1E1E1E !important; }
-        ::selection { background: #006064; color: #E0E0E0; }
-        input::placeholder { color: #888; }
-        .fixed-controls {
-          background: #1E1E1E;
-          padding-bottom: 26px;
-          padding-top: 24px;
-          position: sticky;
-          top: 0;
-          z-index: 1;
-        }
-        @media (min-width: 768px) {
-          .fixed-controls-flex {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 32px;
-          }
-          .fixed-controls-flex .search-box {
-            flex: 1 1 0%;
-            max-width: 320px;
-          }
-          .fixed-controls-flex .pagination-box {
-            flex: none;
-            margin-bottom: 0;
-          }
-        }
-      `}</style> */}
       <div className="fixed-controls">
         <div className="fixed-controls-flex">
           <input
             className="search-box"
             value={globalFilter}
+
             onChange={(e) => setGlobalFilter(e.target.value)}
             placeholder="Tabloda ara..."
             style={{
