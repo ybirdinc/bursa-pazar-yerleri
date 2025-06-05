@@ -210,6 +210,8 @@ export default function Home() {
 
   return (
     <div style={{ minHeight: "100vh", background: "#1E1E1E", padding: 24, paddingTop: 0 }}>
+      <h1>Bursa Pazar Yerleri Tablosu</h1>
+      <p>Günlere Göre Bursa Semt Pazarları ve Adresleri</p>
       <div className="fixed-controls">
         <div className="fixed-controls-flex">
           <input

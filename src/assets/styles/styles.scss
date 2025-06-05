@@ -39,7 +39,8 @@ input::placeholder {
   }
 }
 
-.seo-title {
+.seo-title,
+h1 {
   font-size     : 2.1rem;
   font-weight   : 700;
   color         : #E0E0E0;
@@ -49,9 +50,26 @@ input::placeholder {
   letter-spacing: -0.5px;
 }
 
+.seo-title,
+h1+p {
+  font-size    : 1.1rem;
+  color        : #B0B0B0;
+  text-align   : center;
+  margin-top   : 0;
+  margin-bottom: 32px;
+}
+
 @media (max-width: 600px) {
-  .seo-title {
+
+  .seo-title,
+  h1 {
     font-size    : 1.2rem;
     margin-bottom: 16px;
+  }
+
+  .seo-title,
+  h1+p {
+    font-size    : 0.98rem;
+    margin-bottom: 18px;
   }
 }
