@@ -324,7 +324,13 @@ export default function Home() {
                 {row.getVisibleCells().map((cell) => (
                   <td
                     key={cell.id}
-                    data-label={cell.column.columnDef.header ? (typeof cell.column.columnDef.header === 'function' ? flexRender(cell.column.columnDef.header, cell.getContext()) : cell.column.columnDef.header) : ''}
+                    data-label={
+                      cell.column.columnDef.header
+                        ? (typeof cell.column.columnDef.header === 'function'
+                          ? '' // If header is a function, leave data-label empty or provide a fallback string
+                          : cell.column.columnDef.header)
+                        : ''
+                    }
                     style={{
                       border: "1px solid #444444",
                       padding: 10,
