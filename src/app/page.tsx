@@ -102,7 +102,7 @@ function PazarCell({ value, ilce, gun, data }: { value: string[]; ilce: string; 
                   </svg>
                 </span>
                 {tooltipIdx === idx && (
-                  <AddressTooltip address={address} onClose={() => setTooltipIdx(null)} />
+                  <AddressTooltip address={address} name={name} onClose={() => setTooltipIdx(null)} />
                 )}
               </>
             )}
@@ -113,9 +113,29 @@ function PazarCell({ value, ilce, gun, data }: { value: string[]; ilce: string; 
   );
 }
 
-function AddressTooltip({ address, onClose }: { address: string; onClose: () => void }) {
+function AddressTooltip({ address, onClose, name }: { address: string; onClose: () => void; name?: string }) {
+  // Adresin başına pazar adı ekle
+  let full = address;
+  if (name && name !== "-") {
+    full = `${name} ${address}`;
+  }
+  const encoded = full.replace(/\s+/g, "+").replace(/\//g, "%2F");
+  const mapsUrl = `https://www.google.com/maps/search/${encoded}`;
+
+  React.useEffect(() => {
+    function handleClick(e: MouseEvent) {
+      const tooltip = document.getElementById("address-tooltip");
+      if (tooltip && !tooltip.contains(e.target as Node)) {
+        onClose();
+      }
+    }
+    document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, [onClose]);
+
   return (
     <div
+      id="address-tooltip"
       style={{
         position: "absolute",
         top: 28,
@@ -147,7 +167,13 @@ function AddressTooltip({ address, onClose }: { address: string; onClose: () => 
       >
         ×
       </button>
-      <div style={{ fontSize: 14, wordBreak: "break-word" }}>{address}</div>
+      <a
+        href={mapsUrl}
+        target="_new"
+        style={{ color: "#00ADB5", textDecoration: "underline", fontSize: 14, wordBreak: "break-word" }}
+      >
+        {address}
+      </a>
     </div>
   );
 }
