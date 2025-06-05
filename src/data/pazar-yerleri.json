@@ -95,8 +95,24 @@
       ],
       "Osmangazi": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "ALEMDAR",
+          "address": "ALEMDAR MAH. 1.AKDOĞAN SOKAK ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "BAĞLARBAŞI",
+          "address": "HAMİTLER MAH. AKDOĞAN CADDESİ ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "REYHAN",
+          "address": "REYHAN MAH. REYHAN CAD. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "MERKEZ TUZPAZARI",
+          "address": "TUZPAZARI MAH. 2.TUZPAZARI SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "YUNUSELİ AKYILDIZ PAZAR ALANI",
+          "address": "YUNUSELİ MAHALLE 2.KARANFİL CADDE ÜZERİ OSMANGAZİ / BURSA"
         }
       ],
       "Yenişehir": [
@@ -107,8 +123,32 @@
       ],
       "Yıldırım": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "çınarönü semt pazarı",
+          "address": "çınarönü mahalle başaklı caddesi Yıldırım / BURSA"
+        },
+        {
+          "name": "demetevler semt pazarı",
+          "address": "demetevler mahalle ismetiye cadde no:137 yanı Yıldırım / BURSA"
+        },
+        {
+          "name": "eğitim semt pazarı",
+          "address": "eğitim mahalle taşlık cadde ve emek caddesi Yıldırım / BURSA"
+        },
+        {
+          "name": "karapınar semt pazarı",
+          "address": "karapınar mahalle 17/1 sokak Yıldırım / BURSA"
+        },
+        {
+          "name": "kazımkarabekir semt pazarı",
+          "address": "kazımkarabekir mahalle kazımkarabekir caddesi Yıldırım / BURSA"
+        },
+        {
+          "name": "millet pazartesi pazarı",
+          "address": "millet mahalle 7200-külhan-fidanlık sokak kesişimi Yıldırım / BURSA"
+        },
+        {
+          "name": "şirinevler semt pazarı",
+          "address": "şirinevler mahalle 25-27-96 sokak arası Yıldırım / BURSA"
         }
       ]
     }
@@ -221,8 +261,28 @@
       ],
       "Osmangazi": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "KÜKÜRTLÜ",
+          "address": "KÜKÜRTLÜ MAH. KÜKÜRTLÜ CAD. 12.KARANFİL SOKAK ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "1050 KONUTLAR",
+          "address": "AKPINAR MAH. 1.HABER SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "PANAYIR",
+          "address": "PANAYIR MAH. 8.ASKER SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "YEŞİLOVA SALI",
+          "address": "KÜÇÜKBALIKLI MAH. KEMER SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "MERKEZ TUZPAZARI",
+          "address": "TUZPAZARI MAH. 2.TUZPAZARI SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "FATİH SALI",
+          "address": "ÇİFTEHAVUZLAR MAHALLE KARACA CADDE ÜZERİ OSMANGAZİ / BURSA"
         }
       ],
       "Yenişehir": [
@@ -233,8 +293,28 @@
       ],
       "Yıldırım": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "75.yıl semt pazarı",
+          "address": "75.yıl mahalle 57.sokak sonu Yıldırım / BURSA"
+        },
+        {
+          "name": "ortabağlar semt pazarı",
+          "address": "ortabağlar mahalle huzur - aydoğdu caddesı Yıldırım / BURSA"
+        },
+        {
+          "name": "sinandede semt pazaro",
+          "address": "sinandede mahalle hastane caddesi Yıldırım / BURSA"
+        },
+        {
+          "name": "temenyeri semt pazarı",
+          "address": "mollaarap mahalle eşrefiler cadde park karşısı Yıldırım / BURSA"
+        },
+        {
+          "name": "yavuzselim semt pazarı",
+          "address": "yavuzselim mahalle yeşilyurt - yayla sokak Yıldırım / BURSA"
+        },
+        {
+          "name": "zümrütevler semt pazarı",
+          "address": "zümrütevler mahalle altıngül-zencefil sokak ortası Yıldırım / BURSA"
         }
       ]
     }
@@ -351,8 +431,24 @@
       ],
       "Osmangazi": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "ZAFER",
+          "address": "ATICILAR MAH. 6.ASLAN SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "EMEK ÇARŞAMBA",
+          "address": "EMEK ADNAN MENDERES MAH. YAVUZ SULTAN SELİM CAD. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "MERKEZ TUZPAZARI",
+          "address": "TUZPAZARI MAH. 2.TUZPAZARI SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "ADALET",
+          "address": "ADALET MAH. SÖNMEZ CAD. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "MERİNOS ÇARŞAMBA",
+          "address": "ÇIRPAN MAHALLE UYSAL SOKAK VE MERİNOSLU SOKAK KESİŞİMİ OSMANGAZİ / BURSA"
         }
       ],
       "Yenişehir": [
@@ -363,8 +459,28 @@
       ],
       "Yıldırım": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "hacıvat semt pazarı",
+          "address": "hacıvat mahalle c116. sokak Yıldırım / BURSA"
+        },
+        {
+          "name": "kaplıkaya semt pazarı",
+          "address": "ertuğrulgazi mahalle sevenler-elmas sokak Yıldırım / BURSA"
+        },
+        {
+          "name": "millet çarşamba pazarı",
+          "address": "sakarya mahalle millet sokak Yıldırım / BURSA"
+        },
+        {
+          "name": "mimarsinan semt pazarı",
+          "address": "mimarsinan mahalle kayın sokak no:2 Yıldırım / BURSA"
+        },
+        {
+          "name": "namazgah semt pazarı",
+          "address": "namazgah mahalle karıncadere-dereboyu-8.sağlık sokak Yıldırım / BURSA"
+        },
+        {
+          "name": "vatan semt pazarı",
+          "address": "vatan mahalle selvi sokak doğusu Yıldırım / BURSA"
         }
       ]
     }
@@ -493,8 +609,32 @@
       ],
       "Osmangazi": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "DİKKALDIRIM",
+          "address": "HÜDAVENDİGAR MAH. DEMET SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "KÜÇÜKBALIKLI",
+          "address": "KÜÇÜKBALIKLI MAH. 7.AYAZ SOK.ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "HAMİTLER",
+          "address": "HAMİTLER MAH. 4.UĞUR SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "DOĞANEVLER",
+          "address": "DOĞANEVLER MAH. 2.DADAŞ SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "REYHAN",
+          "address": "REYHAN MAH. REYHAN CAD. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "MERKEZ TUZPAZARI",
+          "address": "TUZPAZARI MAH. 2.TUZPAZARI SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "EMEK PERŞEMBE PAZARI",
+          "address": "EMEK ZEKAİ GÜMÜŞDİŞ MAHALLE GAZİOSMANPAŞA CADDE VE ADALI SOKAK KESİŞİMİ OSMANGAZİ / BURSA"
         }
       ],
       "Yenişehir": [
@@ -505,8 +645,24 @@
       ],
       "Yıldırım": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "beyazıt semt pazarı",
+          "address": "beyazıt mahalle havuzlu sokak Yıldırım / BURSA"
+        },
+        {
+          "name": "fidyekızık semt pazarı",
+          "address": "fidyekızık mahalle 6.fatih sokak Yıldırım / BURSA"
+        },
+        {
+          "name": "mevlana semt pazarı",
+          "address": "yavuzselim mahalle yeşilyurt sokak yayla sokak Yıldırım / BURSA"
+        },
+        {
+          "name": "samanlı semt pazarı",
+          "address": "samanlı mahalle sarmaşık sokak Yıldırım / BURSA"
+        },
+        {
+          "name": "sıracevizler mahalle",
+          "address": "sıracevizler mahalle bahçe-çayır sokak Yıldırım / BURSA"
         }
       ]
     }
@@ -627,8 +783,32 @@
       ],
       "Osmangazi": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "ALACAHIRKA",
+          "address": "PINARBAŞI MAH. 1.ZİNDANKAPI SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "SIRAMEŞELER",
+          "address": "SIRAMEŞELER MAH. 9.SAKARYA SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "YUNUSELİ",
+          "address": "YUNUSELİ MAH. 8.KUMRU SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "GEÇİT",
+          "address": "GEÇİT MAH. GÜNDÜZ SOKAK VE GAZİ SOKAK KESİŞİMİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "MERKEZ TUZPAZARI",
+          "address": "TUZPAZARI MAH. 2.TUZPAZARI SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "DEMİRTAŞ CUMA",
+          "address": "DEMİRTAŞ SAKARYA MAH. BARBAROS CAD. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "TUNA CUMA",
+          "address": "ÇİFTEHAVUZLAR MAHALLE KARACA CADDE ÜZERİ OSMANGAZİ / BURSA"
         }
       ],
       "Yenişehir": [
@@ -639,8 +819,16 @@
       ],
       "Yıldırım": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "esenevler semt pazarı",
+          "address": "esenevler mahalle hacıali cadde Yıldırım / BURSA"
+        },
+        {
+          "name": "teferrüç semt pazarı",
+          "address": "teferrüç mahalle devrengeç cadde yeşil cadde Yıldırım / BURSA"
+        },
+        {
+          "name": "yıldırım semt pazarı",
+          "address": "yıldırım mahalle dere sokak Yıldırım / BURSA"
         }
       ]
     }
@@ -765,8 +953,32 @@
       ],
       "Osmangazi": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "SOĞANLI KANALBOYU",
+          "address": "SOĞANLI MAH. 6.TANER SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "ÇİRİŞHANE",
+          "address": "ÇİRİŞHANE MAH. 8.ÇİÇEK SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "BAĞLARBAŞI CUMARTESİ",
+          "address": "HAMİTLER MAH. 4.UĞUR SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "REYHAN",
+          "address": "REYHAN MAH. REYHAN CAD. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "MERKEZ TUZPAZARI",
+          "address": "TUZPAZARI MAH. 2.TUZPAZARI SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "YEŞİLOVA CUMARTESİ",
+          "address": "KÜÇÜKBALIKLI MAH. KEMER SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "ALİ BOSTANCI",
+          "address": "HAMİTLER MAHALLE ALİ BOSTANCI CADDE VE 1.FATİH CADDE KESİŞİMİ OSMANGAZİ / BURSA"
         }
       ],
       "Yenişehir": [
@@ -777,8 +989,16 @@
       ],
       "Yıldırım": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "arabayatağı semt pazarı",
+          "address": "arabayatağı mahalle hastane caddesi Yıldırım / BURSA"
+        },
+        {
+          "name": "ertuğrulgazi semt pazarı",
+          "address": "ertuğrulgazi mahalle emek caddesi Yıldırım / BURSA"
+        },
+        {
+          "name": "kapalı millet semt pazarı",
+          "address": "millet mahalle 7.açelya sokak no:12/b Yıldırım / BURSA"
         }
       ]
     }
@@ -903,8 +1123,32 @@
       ],
       "Osmangazi": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "İVAZPAŞA",
+          "address": "MOLLAFENARİ MAH. 2.KAHVECİ SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "YENİBAĞLAR",
+          "address": "YENİBAĞLAR MAH. HÜRREM SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "DİKKALDIRIM PAZAR",
+          "address": "HÜDAVENDİGAR MAH. DEMET SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "HÜRRİYET",
+          "address": "HÜRRİYET MAH. 4.ORTA SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "ZİRAAT",
+          "address": "YENİKARAMAN MAH. 12.AKASYA SOK. ÜZERİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "DEMİRTAŞ PAZAR",
+          "address": "DEMİRTAŞ CUMHURİYET MAH. 1240.SOKAK VE YAKAMOZ SOKAK KESİŞİMİ OSMANGAZİ / BURSA"
+        },
+        {
+          "name": "EMEK PAZAR PAZARI",
+          "address": "EMEK ZEKAİ GÜMÜŞDİŞ MAHALLE GAZİOSMANPAŞA CADDE VE ADALI SOKAK KESİŞİMİ OSMANGAZİ / BURSA"
         }
       ],
       "Yenişehir": [
@@ -915,8 +1159,44 @@
       ],
       "Yıldırım": [
         {
-          "name": "-",
-          "address": "-"
+          "name": "bağlaraltı semt pazarı",
+          "address": "bağlaraltı mahalle 309 sokak Yıldırım / BURSA"
+        },
+        {
+          "name": "baruthane semt pazarı",
+          "address": "baruthane mahalle ş.er mümin mutlu sokak Yıldırım / BURSA"
+        },
+        {
+          "name": "dalyan sokak semt pazarı",
+          "address": "değirmenlikızık mahalle dalyan sokak Yıldırım / BURSA"
+        },
+        {
+          "name": "davutkadı semt pazarı",
+          "address": "davutkadı mahalle incirli cadde başı Yıldırım / BURSA"
+        },
+        {
+          "name": "değirmenlikızık semt pazarı",
+          "address": "değirmenlikızık mahalle tütüncüoğlu caddesi Yıldırım / BURSA"
+        },
+        {
+          "name": "değirmenönü semt pazarı",
+          "address": "değirmenönü mahalle okul caddesi Yıldırım / BURSA"
+        },
+        {
+          "name": "musababa semt pazarı",
+          "address": "musababa mahalle 2.asa sokak Yıldırım / BURSA"
+        },
+        {
+          "name": "piremir semt pazarı",
+          "address": "piremir mahalle uludağ cadde no:2/3 Yıldırım / BURSA"
+        },
+        {
+          "name": "selçukbey semt pazarı",
+          "address": "siteler mahalle kanal caddesi Yıldırım / BURSA"
+        },
+        {
+          "name": "yiğitler semt pazarı",
+          "address": "yiğitler mahalle türkmenbaşı cadde ile d223 sokak kesişimi Yıldırım / BURSA"
         }
       ]
     }
