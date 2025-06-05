@@ -215,62 +215,80 @@ export default function Home() {
         input::placeholder { color: #888; }
         .fixed-controls {
           background: #1E1E1E;
-          padding-bottom: 8px;
+          padding-bottom: 26px;
           padding-top: 24px;
           position: sticky;
           top: 0;
           z-index: 1;
         }
+        @media (min-width: 768px) {
+          .fixed-controls-flex {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 32px;
+          }
+          .fixed-controls-flex .search-box {
+            flex: 1 1 0%;
+            max-width: 320px;
+          }
+          .fixed-controls-flex .pagination-box {
+            flex: none;
+            margin-bottom: 0;
+          }
+        }
       `}</style>
       <div className="fixed-controls">
-        <input
-          value={globalFilter}
-          onChange={(e) => setGlobalFilter(e.target.value)}
-          placeholder="Tabloda ara..."
-          style={{
-            marginBottom: 16,
-            padding: 10,
-            width: 260,
-            background: "#2D2D2D",
-            color: "#E0E0E0",
-            border: "1px solid #444444",
-            borderRadius: 6,
-            outline: "none",
-          }}
-        />
-        <div style={{ marginBottom: 12, display: 'flex', alignItems: 'center', gap: 16 }}>
-          <button
-            onClick={() => table.setPageIndex(0)}
-            disabled={!table.getCanPreviousPage()}
-            style={{ background: '#2D2D2D', color: '#E0E0E0', border: '1px solid #444444', borderRadius: 4, padding: '4px 10px', cursor: 'pointer', opacity: table.getCanPreviousPage() ? 1 : 0.5 }}
-          >{"|<"}</button>
-          <button
-            onClick={() => table.previousPage()}
-            disabled={!table.getCanPreviousPage()}
-            style={{ background: '#2D2D2D', color: '#E0E0E0', border: '1px solid #444444', borderRadius: 4, padding: '4px 10px', cursor: 'pointer', opacity: table.getCanPreviousPage() ? 1 : 0.5 }}
-          >{"<"}</button>
-          <span style={{ color: '#E0E0E0' }}>
-            {table.getState().pagination.pageIndex + 1} / {table.getPageCount()}
-          </span>
-          <button
-            onClick={() => table.nextPage()}
-            disabled={!table.getCanNextPage()}
-            style={{ background: '#2D2D2D', color: '#E0E0E0', border: '1px solid #444444', borderRadius: 4, padding: '4px 10px', cursor: 'pointer', opacity: table.getCanNextPage() ? 1 : 0.5 }}
-          >{" > "}</button>
-          <button
-            onClick={() => table.setPageIndex(table.getPageCount() - 1)}
-            disabled={!table.getCanNextPage()}
-            style={{ background: '#2D2D2D', color: '#E0E0E0', border: '1px solid #444444', borderRadius: 4, padding: '4px 10px', cursor: 'pointer', opacity: table.getCanNextPage() ? 1 : 0.5 }}
-          >{" >| "}</button>
-          <select
-            value={table.getState().pagination.pageSize}
-            onChange={e => table.setPageSize(Number(e.target.value))}
-            style={{ background: '#2D2D2D', color: '#E0E0E0', border: '1px solid #444444', borderRadius: 4, padding: '4px 10px' }}
-          >
-            {pageSizes.map(size => (
-              <option key={size} value={size}>{size === tableData.length ? 'Tümü' : size}</option>
-            ))}
-          </select>
+        <div className="fixed-controls-flex">
+          <input
+            className="search-box"
+            value={globalFilter}
+            onChange={(e) => setGlobalFilter(e.target.value)}
+            placeholder="Tabloda ara..."
+            style={{
+              padding: 10,
+              width: 260,
+              background: "#2D2D2D",
+              color: "#E0E0E0",
+              border: "1px solid #444444",
+              borderRadius: 6,
+              outline: "none",
+            }}
+          />
+          <div className="pagination-box" style={{ marginBottom: 12, display: 'flex', alignItems: 'center', gap: 16 }}>
+            <button
+              onClick={() => table.setPageIndex(0)}
+              disabled={!table.getCanPreviousPage()}
+              style={{ background: '#2D2D2D', color: '#E0E0E0', border: '1px solid #444444', borderRadius: 4, padding: '4px 10px', cursor: 'pointer', opacity: table.getCanPreviousPage() ? 1 : 0.5 }}
+            >{"|<"}</button>
+            <button
+              onClick={() => table.previousPage()}
+              disabled={!table.getCanPreviousPage()}
+              style={{ background: '#2D2D2D', color: '#E0E0E0', border: '1px solid #444444', borderRadius: 4, padding: '4px 10px', cursor: 'pointer', opacity: table.getCanPreviousPage() ? 1 : 0.5 }}
+            >{"<"}</button>
+            <span style={{ color: '#E0E0E0' }}>
+              {table.getState().pagination.pageIndex + 1} / {table.getPageCount()}
+            </span>
+            <button
+              onClick={() => table.nextPage()}
+              disabled={!table.getCanNextPage()}
+              style={{ background: '#2D2D2D', color: '#E0E0E0', border: '1px solid #444444', borderRadius: 4, padding: '4px 10px', cursor: 'pointer', opacity: table.getCanNextPage() ? 1 : 0.5 }}
+            >{" > "}</button>
+            <button
+              onClick={() => table.setPageIndex(table.getPageCount() - 1)}
+              disabled={!table.getCanNextPage()}
+              style={{ background: '#2D2D2D', color: '#E0E0E0', border: '1px solid #444444', borderRadius: 4, padding: '4px 10px', cursor: 'pointer', opacity: table.getCanNextPage() ? 1 : 0.5 }}
+            >{" >| "}</button>
+            <select
+              value={table.getState().pagination.pageSize}
+              onChange={e => table.setPageSize(Number(e.target.value))}
+              style={{ background: '#2D2D2D', color: '#E0E0E0', border: '1px solid #444444', borderRadius: 4, padding: '4px 10px' }}
+            >
+              {pageSizes.map(size => (
+                <option key={size} value={size}>{size === tableData.length ? 'Tümü' : size}</option>
+              ))}
+            </select>
+          </div>
         </div>
       </div>
       <div style={{ borderRadius: 10, boxShadow: "0 2px 16px #0004", background: "#2D2D2D" }}>
@@ -291,7 +309,7 @@ export default function Home() {
                       userSelect: "none",
                       transition: "background 0.2s",
                       position: "sticky",
-                      top: 139,
+                      top: 95,
                       zIndex: 1
                     }}
                     onClick={header.column.getToggleSortingHandler()}
