@@ -33,40 +33,21 @@ const tableData = ilceler.map((ilce) => {
   return row;
 });
 
-// Kolon tanımları
-const columns: ColumnDef<any>[] = [
-  {
-    accessorKey: "ilce",
-    header: () => "İlçe",
-    cell: (info) => info.getValue(),
-  },
-  ...gunler.map((gun) => ({
-    accessorKey: gun,
-    header: () => gun,
-    cell: (info: any) => {
-      const value = info.getValue();
-      const ilce = info.row.original.ilce;
-      // useState hook burada kullanılamaz, üst componentte state tutulmalı
-      // Bu yüzden custom bir RowCell componenti ile state yönetelim
-      return (
-        <PazarCell
-          value={value}
-          ilce={ilce}
-          gun={gun}
-          data={data}
-        />
-      );
-    },
-  })),
-];
-
 // Hücrede tooltip ve border yönetimi için ayrı bir component
-function PazarCell({ value, ilce, gun, data }: { value: string[]; ilce: string; gun: string; data: any }) {
+function PazarCell({ value, ilce, gun, data, globalFilter }: { value: string[]; ilce: string; gun: string; data: any; globalFilter?: string }) {
   const [tooltipIdx, setTooltipIdx] = React.useState<number | null>(null);
-  if (!Array.isArray(value)) return value;
+  // Eğer arama varsa, sadece eşleşenleri göster
+  let filteredValue = value;
+  if (globalFilter && globalFilter.trim() !== "") {
+    filteredValue = value.filter((name) =>
+      name.toLowerCase().includes(globalFilter.toLowerCase())
+    );
+    if (filteredValue.length === 0) filteredValue = ["-"];
+  }
+  if (!Array.isArray(filteredValue)) return filteredValue;
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 0, position: "relative" }}>
-      {value.map((name: string, idx: number) => {
+      {filteredValue.map((name: string, idx: number) => {
         const pazarObj = data[gun]["İlçe"][ilce]?.[idx];
         const address = pazarObj?.address || "-";
         return (
@@ -77,7 +58,7 @@ function PazarCell({ value, ilce, gun, data }: { value: string[]; ilce: string; 
               alignItems: "center",
               gap: 6,
               position: "relative",
-              borderBottom: idx !== value.length - 1 ? "1px solid #444" : undefined,
+              borderBottom: idx !== filteredValue.length - 1 ? "1px solid #444" : undefined,
               padding: "4px 0",
             }}
           >
@@ -188,6 +169,32 @@ export default function Home() {
   const [sorting, setSorting] = React.useState<any[]>([]);
   const [selectedRowId, setSelectedRowId] = React.useState<string | null>(null);
   const [pagination, setPagination] = React.useState({ pageIndex: 0, pageSize: tableData.length });
+
+  // columns tanımı burada
+  const columns: ColumnDef<any>[] = [
+    {
+      accessorKey: "ilce",
+      header: () => "İlçe",
+      cell: (info) => info.getValue(),
+    },
+    ...gunler.map((gun) => ({
+      accessorKey: gun,
+      header: () => gun,
+      cell: (info: any) => {
+        const value = info.getValue();
+        const ilce = info.row.original.ilce;
+        return (
+          <PazarCell
+            value={value}
+            ilce={ilce}
+            gun={gun}
+            data={data}
+            globalFilter={globalFilter}
+          />
+        );
+      },
+    })),
+  ];
 
   const table = useReactTable({
     data: tableData,
