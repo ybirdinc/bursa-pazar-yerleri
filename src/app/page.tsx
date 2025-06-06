@@ -179,6 +179,10 @@ function AddressTooltip({ address, onClose, name }: { address: string; onClose: 
   );
 }
 
+const defaultColumn = {
+  enableGlobalFilter: true,
+};
+
 export default function Home() {
   const [globalFilter, setGlobalFilter] = React.useState("");
   const [sorting, setSorting] = React.useState<any[]>([]);
@@ -188,6 +192,7 @@ export default function Home() {
   const table = useReactTable({
     data: tableData,
     columns,
+    defaultColumn,
     state: {
       globalFilter,
       sorting,
@@ -200,8 +205,13 @@ export default function Home() {
     getSortedRowModel: getSortedRowModel(),
     getFilteredRowModel: getFilteredRowModel(),
     getPaginationRowModel: getPaginationRowModel(),
-    globalFilterFn: (row, columnId, filterValue) => {
-      return String(row.getValue(columnId)).toLowerCase().includes(filterValue.toLowerCase());
+    globalFilterFn: (row, _columnId, filterValue) => {
+      // Tüm hücrelerde arama: satırdaki tüm hücrelerin değerlerini string olarak birleştirip filtre uygula
+      return Object.values(row.original)
+        .flat()
+        .join(" ")
+        .toLowerCase()
+        .includes(filterValue.toLowerCase());
     },
   });
 
